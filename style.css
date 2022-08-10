@@ -1,8 +1,14 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body{
     font: 15px, 1.5 Arial, Georgia, Tahoma;
     padding: 0;
     margin: 0;
     background-color: rgb(240, 247, 229);
+    margin-bottom: 60px;
 }
 
 ul{
@@ -56,46 +62,44 @@ header a:hover{
 }
 
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
     background: rgb(161, 201, 86);
     color: rgb(240, 247, 229);
     min-height: 30px;
-    padding: 0;
     border-top: rgb(109, 165, 66) 3px solid;
     text-align: center;
     margin-top: 20px;
-    
 } 
 
 
 .container{
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
 
 }
 
 #antraste{
-    min-height: 450px;
-    
-    background: url('./image/antraste.jpg') round;
+    min-height: 300px;
+    background: url('./image/antraste2.jpg') round;
     text-align: center;
     color: #ffffff;
     }
 #antraste h1{
-    margin-top: 100px;
-    font-size: 100px;
+    margin-top: 80px;
+    font-size: 90px;
     margin-bottom: 10px;
     font-weight: bold;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#antraste p{
-font-size: 65px;
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+
 
 #ieskoti{
-    padding: 10px;
+   
     color: rgb(240, 247, 229);
     background: rgb(128, 64, 81);
 }
@@ -104,18 +108,21 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 #ieskoti form{
     float:right;
     font-size: 15px;
-    padding-top: 10px;
+    padding-top: 15px;
     }
 
 #ieskoti input[type="search"]{
-    padding: 0px;
-    height: 30px;
+    padding: 10px;
+    height: 35px;
     width:200px;
+    border-style: solid;
+    border-color: white;
 }
 
 .mygtukas1{
-    height: 30px;
-    border: 0;
+    height: 35px;
+    border-style: solid;
+    border-color: white;
     padding-left: 10px;
     padding-right: 10px;
     
@@ -128,7 +135,8 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 #skaiciavimas .box{
 float: left;
 width: 30%;
-padding: 10px;
+padding-right: 10px;
+padding-left: 10px;
 
 }
 
