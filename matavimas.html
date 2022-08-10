@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content=" width=device-width">
+        <meta name="description" content="Pagalba mokiniui">
+        <meta name="keywords" content="Matematika, Geometrija, Formulės, Skaičiavimas">
+        <meta name="author" content="Marius Petokaitis">
+        <title>Matavimo vienetai</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <script src="./matavimas.js"></script>
+        
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <h1>Matavimo vienetai</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Pradžia</a></li>
+                        <li><a href="matavimas.html">Matavimo vienetai</a></li>
+                        <li><a href="plotas.html">Plotas</a></li>
+                        <li><a href="turis.html">Tūris</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <section id="antraste">
+        <div class="container">
+            <h1>Skaičiuok greičiau &#128521;</h1>
+            <p> Įrašyk duomenis ir gausi rezultatą!</p>
+        </div>
+    </section>
+    <section id="ieskoti">
+        <div class="container">
+            <form>
+                <input type="search" placeholder="Įveskite tekstą...">
+                <button type="submit" class="mygtukas1">&#x1F50E</button>
+            </form>
+        </div>
+    </section>
+
+    <Section id="skaiciavimas">
+        <div class="container">
+            <div class="box">
+                <img src="image/Matavimas/ilgis.png">
+                <h3>Ilgio matavimo vienetų konvertavimas</h3>
+
+<form name="lengthCon">
+            <p class="movement"> Iš: </p>
+			<select class="movement" name=fromUnit onChange="convertUnit()">
+			<option> Milimetrai
+			<option> Centimetrai
+			<option> Decimetrai
+            <option> Metrai
+            </select>
+		 
+		 <p class="movement">Į: </p>
+			<select class="movement" name=toUnit onChange="convertUnit()">
+              <option> Milimetrai
+              <option> Centimetrai
+              <option> Decimetrai
+              <option> Metrai
+			</select>
+        </p>
+	
+		<p class="move">Įveskite: </p>
+		<p class="move"><input class="around"  name="fromValue"  size="8" maxlength="15"></p>
+		<p class="move"><input class="yah"type=button value="Skaičiuoti" onClick="convertUnit()"></p>
+        
+        <p> Rezultatas: <span class="ats2" id="toValue">  </span> <span id=toUnit></span></p>
+</form>
+
+            </div>
+   
+            <div class="box">
+                <img src="image/Matavimas/plotas.png">
+                <h3>Ploto matavimo vienetų konvertavimas</h3>
+                <form name="lengthCon2">
+		
+                    <p class="movement"> Iš: </p>
+                        <select class="movement" name=fromUnit2 onChange="convertUnit2()">
+                        <option> Milimetrai&sup2
+                        <option> Centimetrai&sup2
+                        <option> Decimetrai&sup2
+                        <option> Metrai&sup2
+                        </select>
+                     
+                     <p class="movement">Į: </p>
+                        <select class="movement" name=toUnit2 onChange="convertUnit2()">
+                          <option> Milimetrai&sup2
+                          <option> Centimetrai&sup2
+                          <option> Decimetrai&sup2
+                          <option> Metrai&sup2
+                        </select>
+                    </p>
+                
+                    <p class="move">Įveskite: </p>
+                    <p class="move"><input class="around"  name="fromValue2"  size="8" maxlength="15"></p>
+                    <p class="move"><input class="yah"type=button value="Skaičiuoti" onClick="convertUnit2()"></p>
+                    
+                    <p> Rezultatas: <span class="ats" id="toValue2">  </span> <span id=toUnit2></span></p>
+            </form>
+            </div>
+            <div class="box">
+                <img src="image/Matavimas/turis.png">
+                <h3>Tūrio matavimo vienetų konvertavimas</h3>
+                <form name="lengthCon3">
+		
+                    <p class="movement"> Iš: </p>
+                        <select class="movement" name=fromUnit3 onChange="convertUnit3()">
+                        <option> Milimetrai&sup3
+                        <option> Centimetrai&sup3
+                        <option> Decimetrai&sup3
+                        <option> Metrai&sup3
+                        </select>
+                     
+                     <p class="movement">Į: </p>
+                        <select class="movement" name=toUnit3 onChange="convertUnit3()">
+                          <option> Milimetrai&sup3
+                          <option> Centimetrai&sup3
+                          <option> Decimetrai&sup3
+                          <option> Metrai&sup3
+                        </select>
+                    </p>
+                
+                    <p class="move">Įveskite: </p>
+                    <p class="move"><input class="around"  name="fromValue3"  size="8" maxlength="15"></p>
+                    <p class="move"><input class="yah"type=button value="Skaičiuoti" onClick="convertUnit3()"></p>
+                    
+                    <p> Rezultatas: <span class="ats" id="toValue3">  </span> <span id=toUnit3></span></p>
+            </form>
+            </div>
+        </div> 
+    </Section>
+    <footer>
+        <div class="container">
+            <p>© 2022. MP. Visos teisės saugomos. </p>
+        </div>
+    </footer>
+    </body>
+</html>

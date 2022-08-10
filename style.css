@@ -1,0 +1,190 @@
+body{
+    font: 15px, 1.5 Arial, Georgia, Tahoma;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 247, 229);
+}
+
+ul{
+    margin: 0;
+}
+
+header{
+    background: rgb(128, 64, 81);
+    color: rgb(240, 247, 229);
+    padding-top: 12px;
+    min-height: 50px;
+    border-bottom: rgb(255,54,112) 3px solid;
+}
+
+
+header a{
+    color: rgb(240, 247, 229);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #logo{
+    float: left;
+}
+
+header #logo h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+
+header a:hover{
+    color:#ffffff;
+    font-weight: bold;
+}
+
+footer{
+    background: rgb(161, 201, 86);
+    color: rgb(240, 247, 229);
+    min-height: 30px;
+    padding: 0;
+    border-top: rgb(109, 165, 66) 3px solid;
+    text-align: center;
+    margin-top: 20px;
+    
+} 
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#antraste{
+    min-height: 450px;
+    
+    background: url('./image/antraste.jpg') round;
+    text-align: center;
+    color: #ffffff;
+    }
+#antraste h1{
+    margin-top: 100px;
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#antraste p{
+font-size: 65px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#ieskoti{
+    padding: 10px;
+    color: rgb(240, 247, 229);
+    background: rgb(128, 64, 81);
+}
+
+
+#ieskoti form{
+    float:right;
+    font-size: 15px;
+    padding-top: 10px;
+    }
+
+#ieskoti input[type="search"]{
+    padding: 0px;
+    height: 30px;
+    width:200px;
+}
+
+.mygtukas1{
+    height: 30px;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#skaiciavimas{
+    margin-top: 20px;
+}
+
+#skaiciavimas .box{
+float: left;
+width: 30%;
+padding: 10px;
+
+}
+
+@media(max-width: 768px){
+    header #logo,
+    header nav,
+    header nav li{
+        float: none;
+    text-align: center;
+    width: 100%;
+        }
+        header{
+            padding-bottom: 20px;
+            
+        }
+        #antraste h1{
+            margin-top: 40px;
+
+        }
+}
+
+.movement{
+    float:center;
+    width: 30%;
+    padding: 5px;
+    display: inline;
+
+}
+
+.move{
+    float:center;
+    width: 30%;
+    padding: 5px;
+    display: inline;
+   
+}
+
+.rez{
+    float:center;
+    width: 30%;
+    padding: 5px;
+    display:inline;
+}
+
+.around{
+
+padding: 5px;
+}
+
+.yah{
+    padding: 5px;
+}
+
+.ats{
+    
+    margin-left: 10px;
+    padding: 5px;
+  
+}
